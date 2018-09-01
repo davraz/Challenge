@@ -1,0 +1,28 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "This is a challenge for backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"lint": "tslint --project tsconfig.json src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davraz/Challenge.git"
+  },
+  "keywords": [
+    "NestJS"
+  ],
+  "author": "David Alcaraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davraz/Challenge/issues"
+  },
+  "homepage": "https://github.com/davraz/Challenge#readme",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
