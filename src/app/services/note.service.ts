@@ -1,14 +1,14 @@
 import { Model } from 'mongoose';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from 'mongoose';
-import { IUser } from '../interfaces/user.interface';
+import { INote } from '../interfaces/note.interface';
 
 
 @Injectable()
-export class UserService {
+export class NoteService {
 	contructor(
-		@InjectModel('tokenUserSchema')
-		private readonly model: Model<IUser>
+		@InjectModel('tokenNoteSchema')
+		private readonly model: Model<INote>
 	) {}
 
 }
